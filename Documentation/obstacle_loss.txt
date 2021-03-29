@@ -1,0 +1,11 @@
+#Obstacle pathloss file. Naming: obstacle_loss.txt
+#Place this file in "workspace/bin/bin_x64" folder of NetSim
+#The format of this file is
+#1st parameter - ENB ID
+#2nd parameter - UE ID
+#3rd parameter – Obstacle pathloss in dB (A positive loss value which implies a negative gain)
+#This obstacle pathloss will get added to the regular pathloss thereby
+#reducing the signal power at receiver
+#Ex: To set an obstacle pathloss of 5dB between 1 to 2 you have to set it 
+$ENB_ID = 2 UE_ID = 3 PL_dB = 50
+$ENB_ID = 2 UE_ID = 6 PL_dB = 50
